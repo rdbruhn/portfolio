@@ -28,14 +28,15 @@ a:hover{
 }
 
 li:hover {
-	background: #c12039;
-	transition: background 1s;
+	background: #621A19;
+	transition: background .5s;
 	color: white;
 }
 
 .project h2:hover {
 	background-color: #6b430e;
-	transition: background 1s;
+	transition: background .5s;
+	color: white;
 }
 
 #header {
@@ -65,7 +66,7 @@ li:hover {
 }
 
 .content h2 {
-	background-color: #c12039;
+	background-color: #621A19;
 	margin: 0;
 	padding: 0.5em 0 0.5em 1.5em;
 }
@@ -117,12 +118,11 @@ li:hover {
 
 .project h2{
 	text-align: center;
-	background-color: #c12039;
-	margin: 1em 4em 0 4em;
+	background-color: #C9B79F;
 	font-size: 1.5em;
 	font-weight: bold;
 	padding: 0.5em;
-	color: white;
+	color: #621A19;
 }
 
 .col-md-4 {
