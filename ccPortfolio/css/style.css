@@ -1,0 +1,150 @@
+* {
+	font-family: 'Poiret One', cursive;
+	color: white;
+}
+
+a{
+	color: #6b430e;
+	text-decoration: none;
+}
+
+a:hover{ 
+	text-decoration: none;
+	color: white;
+}
+
+#navBar {
+	position: fixed;
+	background-color: #C9B79F;
+	z-index: 1;
+	width: 100%;
+}
+
+#navBar ul {
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+li:hover {
+	background: #c12039;
+	transition: background 1s;
+	color: white;
+}
+
+.project h2:hover {
+	background-color: #6b430e;
+	transition: background 1s;
+}
+
+#header {
+	background-color: #6b430e;
+}
+
+#titleBar {
+	text-align: right;
+	padding: 4em 4em 0 0;
+}
+
+#titleBar h1 {
+	font-size: 8em;
+	font-weight: bold;
+}
+
+#titleBar h3 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+
+#logoBar img {
+	width: 100%;
+	border-radius: 100%;
+	padding: 4.5em 2.5em 2.5em 2.5em;
+}
+
+.content h2 {
+	background-color: #c12039;
+	margin: 0;
+	padding: 0.5em 0 0.5em 1.5em;
+}
+.project img {
+	width: 100%;
+}
+
+.p1 {
+	background: 
+    url(../images/resume.jpg) no-repeat center center;
+  	background-size: cover;
+  	height: 20em;
+}
+
+.p2 {
+	background: 
+    url(http://www.loktah.com/sites/default/files/imagecache/gallery_product/lush_portfolio.jpg) no-repeat center center;
+  	background-size: cover;
+  	height: 20em;
+}
+
+.p3 {
+	background: 
+    url(../images/gingko.jpg) no-repeat center center;
+  	background-size: cover;
+  	height: 20em;
+}
+
+.p4 {
+	background: 
+    url(../images/pine.jpg) no-repeat center center;
+  	background-size: cover;
+  	height: 20em;
+}
+
+.p5 {
+	background: 
+    url(../images/pink.jpg) no-repeat center center;
+  	background-size: cover;
+  	height: 20em;
+}
+
+.p6 {
+	background: 
+    url(../images/woods.jpg) no-repeat center center;
+  	background-size: cover;
+  	height: 20em;
+}
+
+.project h2{
+	text-align: center;
+	background-color: #c12039;
+	margin: 1em 4em 0 4em;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 0.5em;
+	color: white;
+}
+
+.col-md-4 {
+	padding: 0;
+}
+
+#footer ul {
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+}
+
+#footer {
+	background-color: #C9B79F;
+	color: #6b430e;
+	padding-bottom: .2em;
+}
+
+li {
+	display: inline;
+	font-size: 1.5em;
+	padding: 0.4em;
+	margin: 0.2em;
+	text-align: center;
+}
