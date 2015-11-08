@@ -4,20 +4,21 @@
 }
 
 a{
-	color: #6b430e;
+	color: white;
 	text-decoration: none;
 }
 
 a:hover{ 
 	text-decoration: none;
-	color: white;
+	color: #6b430e;
 }
 
 #navBar {
 	position: fixed;
-	background-color: #C9B79F;
+	background-color: #621A19;
 	z-index: 1;
 	width: 100%;
+	text-align: left;
 }
 
 #navBar ul {
@@ -27,9 +28,9 @@ a:hover{
 }
 
 li:hover {
-	background: #621A19;
+	background-color: #C9B79F;
 	transition: background .5s;
-	color: white;
+	color: #6b430e;
 }
 
 .project h2:hover {
@@ -143,8 +144,8 @@ p {
 }
 
 #footer {
-	background-color: #C9B79F;
-	color: #6b430e;
+	background-color: #621A19;
+	color: white;
 	padding: 0.5em 0 0.5em 0;
 }
 
