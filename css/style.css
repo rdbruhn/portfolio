@@ -22,7 +22,6 @@ a:hover{
 
 #navBar ul {
 	margin: auto;
-	text-align: center;
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -76,7 +75,7 @@ li:hover {
 
 .p1 {
 	background: 
-    url(../images/resume.jpg) no-repeat center center;
+    url(../img/resume.jpg) no-repeat center center;
   	background-size: cover;
   	height: 20em;
 }
@@ -90,28 +89,28 @@ li:hover {
 
 .p3 {
 	background: 
-    url(../images/gingko.jpg) no-repeat center center;
+    url(../img/gingko.jpg) no-repeat center center;
   	background-size: cover;
   	height: 20em;
 }
 
 .p4 {
 	background: 
-    url(../images/pine.jpg) no-repeat center center;
+    url(../img/pine.jpg) no-repeat center center;
   	background-size: cover;
   	height: 20em;
 }
 
 .p5 {
 	background: 
-    url(../images/pink.jpg) no-repeat center center;
+    url(../img/pink.jpg) no-repeat center center;
   	background-size: cover;
   	height: 20em;
 }
 
 .p6 {
 	background: 
-    url(../images/woods.jpg) no-repeat center center;
+    url(../img/woods.jpg) no-repeat center center;
   	background-size: cover;
   	height: 20em;
 }
@@ -146,5 +145,15 @@ li {
 	font-size: 1.5em;
 	padding: 0.4em;
 	margin: 0.2em;
-	text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  #logoBar {
+    display: none;
+  }
+  #titleBar {
+  	text-align: center;
+  	margin: auto;
+  	padding: 2em 0 0 0;
+  }
 }
