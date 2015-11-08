@@ -78,50 +78,51 @@ li:hover {
 p {
 	font-size: 2em;
 	padding: 1em 2em 1em 2em;
-	background-color: #6b430e;
+	background-color: #C9B79F;
 	margin: 0;
+	color: #6b430e;
 }
 
 .p1 {
 	background: 
     url(../img/resume.jpg) no-repeat center center;
   	background-size: cover;
-  	height: 25em;
+  	height: 23em;
 }
 
 .p2 {
 	background: 
     url(http://www.loktah.com/sites/default/files/imagecache/gallery_product/lush_portfolio.jpg) no-repeat center center;
   	background-size: cover;
-  	height: 25em;
+  	height: 23em;
 }
 
 .p3 {
 	background: 
     url(../img/gingko.jpg) no-repeat center center;
   	background-size: cover;
-  	height: 25em;
+  	height: 23em;
 }
 
 .p4 {
 	background: 
     url(../img/pine.jpg) no-repeat center center;
   	background-size: cover;
-  	height: 25em;
+  	height: 23em;
 }
 
 .p5 {
 	background: 
     url(../img/pink.jpg) no-repeat center center;
   	background-size: cover;
-  	height: 25em;
+  	height: 23em;
 }
 
 .p6 {
 	background: 
     url(../img/woods.jpg) no-repeat center center;
   	background-size: cover;
-  	height: 25em;
+  	height: 23em;
 }
 
 .project h2{
@@ -129,7 +130,7 @@ p {
 	background-color: #C9B79F;
 	font-size: 1.7em;
 	font-weight: bold;
-	color: #621A19;
+	color: #6b430e;
 	padding: 0.5em 0 0.5em 0;
 	margin: 0;
 }
