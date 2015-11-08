@@ -25,6 +25,7 @@ a:hover{
 	margin: auto;
 	font-weight: bold;
 	text-transform: uppercase;
+	padding-left: 0;
 }
 
 li:hover {
