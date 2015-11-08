@@ -40,11 +40,11 @@ li:hover {
 
 #header {
 	background-color: #6b430e;
+	padding: 4em 4em 2em 0;
 }
 
 #titleBar {
 	text-align: right;
-	padding: 4em 4em 0 0;
 }
 
 #titleBar h1 {
@@ -61,67 +61,75 @@ li:hover {
 #logoBar img {
 	width: 100%;
 	border-radius: 100%;
-	padding: 4.5em 2.5em 2.5em 2.5em;
+	padding: 2em 0 0 3em;
 }
 
-.content h2 {
+.heading {
 	background-color: #621A19;
-	margin: 0;
-	padding: 0.5em 0 0.5em 1.5em;
+	padding: 0 0 0.4em 2em;
+	text-align: left;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white;
 }
-.project img {
-	width: 100%;
+
+p {
+	font-size: 2em;
+	padding: 1em 2em 1em 2em;
+	background-color: #6b430e;
+	margin: 0;
 }
 
 .p1 {
 	background: 
     url(../img/resume.jpg) no-repeat center center;
   	background-size: cover;
-  	height: 20em;
+  	height: 25em;
 }
 
 .p2 {
 	background: 
     url(http://www.loktah.com/sites/default/files/imagecache/gallery_product/lush_portfolio.jpg) no-repeat center center;
   	background-size: cover;
-  	height: 20em;
+  	height: 25em;
 }
 
 .p3 {
 	background: 
     url(../img/gingko.jpg) no-repeat center center;
   	background-size: cover;
-  	height: 20em;
+  	height: 25em;
 }
 
 .p4 {
 	background: 
     url(../img/pine.jpg) no-repeat center center;
   	background-size: cover;
-  	height: 20em;
+  	height: 25em;
 }
 
 .p5 {
 	background: 
     url(../img/pink.jpg) no-repeat center center;
   	background-size: cover;
-  	height: 20em;
+  	height: 25em;
 }
 
 .p6 {
 	background: 
     url(../img/woods.jpg) no-repeat center center;
   	background-size: cover;
-  	height: 20em;
+  	height: 25em;
 }
 
 .project h2{
 	text-align: center;
 	background-color: #C9B79F;
-	font-size: 1.5em;
+	font-size: 1.7em;
 	font-weight: bold;
-	padding: 0.5em;
 	color: #621A19;
+	padding: 0.5em 0 0.5em 0;
+	margin: 0;
 }
 
 .col-md-4 {
@@ -137,23 +145,23 @@ li:hover {
 #footer {
 	background-color: #C9B79F;
 	color: #6b430e;
-	padding-bottom: .2em;
+	padding: 0.5em 0 0.5em 0;
 }
 
 li {
 	display: inline;
-	font-size: 1.5em;
+	font-size: 1.7em;
 	padding: 0.4em;
-	margin: 0.2em;
 }
 
 @media only screen and (max-width: 767px) {
   #logoBar {
     display: none;
   }
-  #titleBar {
-  	text-align: center;
-  	margin: auto;
-  	padding: 2em 0 0 0;
+  #header {
+  	padding: 4em 0 2em 0;
+  }
+  #titleBar{
+  text-align: center;
   }
 }
