@@ -3,14 +3,30 @@
 	color: white;
 }
 
-a{
+a {
 	color: white;
 	text-decoration: none;
 }
 
-a:hover{ 
+a:hover { 
 	text-decoration: none;
 	color: #6b430e;
+}
+
+a:-webkit-any-link {
+	text-decoration: none;
+}
+
+li:hover {
+	background-color: #C9B79F;
+	transition: background .5s;
+	color: #6b430e;
+}
+
+.project h2:hover {
+	background-color: #6b430e;
+	transition: background .5s;
+	color: white;
 }
 
 #navBar {
@@ -26,18 +42,6 @@ a:hover{
 	font-weight: bold;
 	text-transform: uppercase;
 	padding-left: 0;
-}
-
-li:hover {
-	background-color: #C9B79F;
-	transition: background .5s;
-	color: #6b430e;
-}
-
-.project h2:hover {
-	background-color: #6b430e;
-	transition: background .5s;
-	color: white;
 }
 
 #header {
@@ -59,14 +63,13 @@ li:hover {
 	font-weight: bold;
 }
 
-
 #logoBar img {
 	width: 100%;
 	border-radius: 100%;
 	padding: 2em 0 0 3em;
 }
 
-.heading {
+.pageContent {
 	background-color: #621A19;
 	padding: 0 0 0.4em 2em;
 	text-align: left;
@@ -125,7 +128,7 @@ p {
   	height: 23em;
 }
 
-.project h2{
+.project h2 {
 	text-align: center;
 	background-color: #C9B79F;
 	font-size: 1.7em;
