@@ -3,6 +3,12 @@
 	color: white;
 }
 
+body {
+	background: 
+    url(../img/bamboo.jpg) no-repeat center fixed;
+  	background-size: cover;
+  	height: 800px;
+	}
 a {
 	color: white;
 	text-decoration: none;
@@ -45,7 +51,7 @@ li:hover {
 }
 
 #header {
-	background-color: #6b430e;
+	background-color: transparent;
 	padding: 4em 4em 2em 0;
 }
 
@@ -56,11 +62,13 @@ li:hover {
 #titleBar h1 {
 	font-size: 8em;
 	font-weight: bold;
+	text-shadow: 2px 2px black;
 }
 
 #titleBar h3 {
 	font-size: 2em;
 	font-weight: bold;
+	text-shadow: 2px 2px black;
 }
 
 #logoBar img {
@@ -171,3 +179,5 @@ li {
   text-align: center;
   }
 }
+
+
