@@ -3,19 +3,19 @@
 	color: white;
 }
 
-body {
-	background: 
+/*body {
+	background:
     url(../img/bamboo.jpg) no-repeat center fixed;
   	background-size: cover;
   	height: 800px;
-	}
+	}*/
 
 a {
 	color: white;
 	text-decoration: none;
 }
 
-a:hover { 
+a:hover {
 	text-decoration: none;
 	color: #6b430e;
 }
@@ -37,7 +37,7 @@ li:hover {
 }
 
 .content {
-  background-color: #6b430e;
+  /*background-color: #6b430e;*/
   padding: 0 0 1em 0;
 }
 
@@ -68,13 +68,14 @@ li:hover {
 #titleBar h1 {
 	font-size: 9em;
 	font-weight: bold;
-	text-shadow: 2px 2px black;
+	text-shadow: 2px 2px gray;
+  color: black;
 }
 
 #titleBar h3 {
 	font-size: 2.2em;
 	font-weight: bold;
-	text-shadow: 2px 2px black;
+  color: black;
 }
 
 #logoBar img {
